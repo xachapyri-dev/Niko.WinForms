@@ -93,30 +93,17 @@ public partial class YourForm : NikoForm
 > Вот метод для загрузки кастомного шрифта
 
 ```csharp
-private static System.Drawing.Text.PrivateFontCollection _nikoFontCollection = new System.Drawing.Text.PrivateFontCollection();
+using System.Drawing.Text;
 
-/// <summary>
-/// Загружает кастомный шрифт из файла (.ttf/.otf) и возвращает экземпляр Font.
-/// Если файл отсутствует, откатывается на стандартный SansSerif.
-/// </summary>
-public static Font GetCustomFont(string fontPath, float size, FontStyle style = FontStyle.Regular)
-{
-    try
-    {
-        if (_nikoFontCollection.Families.Length == 0 && System.IO.File.Exists(fontPath))
-        {
-            _nikoFontCollection.AddFontFile(fontPath);
-        }
-        if (_nikoFontCollection.Families.Length > 0)
-        {
-            return new Font(_nikoFontCollection.Families[0], size, style);
-        }
-    }
-    catch 
-    { 
-    }
-    return new Font(FontFamily.GenericSansSerif, size, style);
-}
+// Загрузка кастомного TTF из локального файла
+PrivateFontCollection nikoFonts = new PrivateFontCollection();
+nikoFonts.AddFontFile("Fonts/OneshotPixel.ttf");
+
+Font pixelFont = new Font(nikoFonts.Families[0], 11F, FontStyle.Regular);
+
+// Назначение шрифта вашим элементам управления
+nikoButton1.Font = pixelFont;
+nikoCheckBox1.Font = pixelFont;
 ```
 >Из шрифтов вы можете использовать *Terminus TTF* или *Determination Mono / 8-bit Operator* 
 
