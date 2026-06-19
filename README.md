@@ -1,3 +1,8 @@
+[![NuGet Version](https://img.shields.io/nuget/v/Niko.WinForms?color=purple&style=flat-square)](https://www.nuget.org/packages/Niko.WinForms/)
+[![NuGet Downloads](https://img.shields.io/nuget/dt/Niko.WinForms?color=blue&style=flat-square)](https://www.nuget.org/packages/Niko.WinForms/)
+[![GitHub Stars](https://img.shields.io/github/stars/xachapyri-dev/Niko.WinForms?color=yellow&style=flat-square)](https://github.com/xachapyri-dev/Niko.WinForms/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 # Niko.WinForms
 A graphical UI library for Windows Forms, which is made in the style of windows from the game OneShot World Machine Edition. / Графическая ui библиотека для Windows Forms, которая сделана в стиле окон из игры OneShot World Mashine Edition
 
