@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+	  <TargetFrameworks>net45;net461;net472;net48;net481</TargetFrameworks>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Niko.WinForms</RootNamespace>
+    <AssemblyName>Niko.WinForms</AssemblyName>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild> <PackageId>Niko.WinForms</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Хачапури dev</Authors>
+    <Company>Хачапури dev</Company>
+    <Description>A graphical UI library for Windows Forms, which is made in the style of windows from the game OneShot World Machine Edition.
+	/
+	Графическая ui библиотека для Windows Forms, которая сделана в стиле окон из игры OneShot World Mashine Edition</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>winforms;custom-controls;ui;oneshot;niko;theme-manager</PackageTags>
+    <RepositoryUrl>https://github.com/xachapyri-dev/Niko.WinForms</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+</Project>

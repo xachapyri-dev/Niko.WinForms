@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36811.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Niko.WinForms", "Niko.WinForms\Niko.WinForms.csproj", "{E55AB2BE-2CC0-4E54-8B33-0970B4F67252}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preview", "TestLib\Preview.csproj", "{FE6A8CB2-5016-448A-8237-3DDAD79A4F9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E55AB2BE-2CC0-4E54-8B33-0970B4F67252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E55AB2BE-2CC0-4E54-8B33-0970B4F67252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E55AB2BE-2CC0-4E54-8B33-0970B4F67252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E55AB2BE-2CC0-4E54-8B33-0970B4F67252}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE6A8CB2-5016-448A-8237-3DDAD79A4F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE6A8CB2-5016-448A-8237-3DDAD79A4F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE6A8CB2-5016-448A-8237-3DDAD79A4F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE6A8CB2-5016-448A-8237-3DDAD79A4F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6ABBADD8-5DEA-46FC-BAB6-DF28B21FE8E3}
+	EndGlobalSection
+EndGlobal

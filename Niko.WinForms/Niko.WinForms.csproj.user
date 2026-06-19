@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <Compile Update="NikoButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoCheckBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoComboBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoContextMenuStrip.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="NikoHScroll.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoLabel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoLabelLink.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoProgressBar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoRadioButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoRichTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoSlider.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoSliderButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoTextBox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoThemeManager.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="NikoVScroll.cs">
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
